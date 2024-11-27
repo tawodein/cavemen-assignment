@@ -1,0 +1,249 @@
+
+
+body{
+    width: 90vw;
+    margin: auto;
+    background-image: url("/CavemenBg.png");
+    background-position-y: -10px;
+    background-color: bisque;
+    background-repeat: repeat;
+    padding: 0px;   
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #B1C19E;
+    border-radius: 100px;
+    margin-top: 2rem;
+}
+
+.header-logo{
+    width: 300px;
+}
+
+header h1{
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 0rem;
+}
+
+
+header p{
+    font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+.navlinks{
+    display: flex;
+    list-style-type: none;
+}
+
+.navlinks a{
+    padding: 0rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+}
+
+.navlinks a:hover{
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+    
+}
+
+
+main{
+    padding: 3rem 0rem;
+}
+
+main h2{
+    font-size: 2rem;
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+    margin: 0rem;
+}
+
+
+.main-tour{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    margin-top: 4rem;
+}
+
+main section{
+    padding-left: 2rem;
+}
+
+
+section img{
+    width: 150px;
+}
+
+section h2{
+    line-height: 0rem;
+    padding-bottom: 1rem;
+}
+
+section li{
+    font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: square;
+    color: black;
+    font-size: 1.2rem;
+}
+
+section li a{
+    text-decoration: none;
+    color: black;
+}
+
+section li a:hover{
+    text-decoration: none;
+    color: brown;
+}
+
+
+.playlist-row{
+    display: flex;
+    height: 50px;
+    margin-top: 1rem;
+    align-items: center;
+    transition: all 0.9s ease-out;
+}
+
+.playlist-row img{
+    height: 40px;
+}
+
+.personal-profile{
+    display: flex;
+    background-image: url("/home-background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    width: inherit;
+    height: 70vh;
+    align-items: center;
+}
+
+.personal-profile img{
+    width: 35vw;
+    border-radius: 100px;
+}
+
+.profile-text{
+    font-size: 2rem;
+    padding-left: 3rem;
+    width: 50vw;
+    color: bisque;
+    margin: 0rem;
+}
+
+.profile-text h2{
+    font-size: 8rem;
+    line-height: 7rem;
+}
+
+.profile-text p{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+
+
+.about{
+    display: flex;
+    margin-top: 1rem;
+    align-content: space-between;
+}
+
+.about-picture {
+    width: 35vw;
+    border-radius: 100px;
+}
+
+
+.more-about{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.more-about-picture {
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.more-about-picture:hover {
+    width: 40vw;
+    height: 200px;
+    object-fit: cover;
+    transition: all 1.5s ease-in-out;
+    
+    
+}
+
+
+
+.about-text{
+    padding-left: 3rem;
+    padding-right: 5rem;
+    width: 50vw;
+}
+
+.about-text h2{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 200;
+    font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #DEAA79;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+}
+
+.footer-text{
+    font-size: 1rem;
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 0.5rem;
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+
+
+
+
